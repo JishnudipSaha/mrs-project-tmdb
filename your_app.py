@@ -1,7 +1,5 @@
 import streamlit as st
 import pickle
-from streamlit_extras.colored_header import colored_header
-from streamlit_extras.let_it_rain import rain
 import requests
 
 
@@ -114,7 +112,8 @@ with st.sidebar:
     """, unsafe_allow_html=True)
 
 # Main header
-colored_header("🔥 Movie Recommendation System", description="Find your next favorite movie!", color_name="red-70")
+st.markdown("<h1 style='text-align: center; color: #ff4b4b; font-size: 2.5em;'>🔥 Movie Recommendation System</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: #333;'>Find your next favorite movie!</h2>", unsafe_allow_html=True)
 
 # Movie selection
 st.markdown("<br>", unsafe_allow_html=True)
