@@ -4,5 +4,4 @@ pandas
 scikit-learn
 nltk
 pickle-mixin
-streamlit_extras.colored_header
-streamlit_extras.let_it_rain
+streamlit
